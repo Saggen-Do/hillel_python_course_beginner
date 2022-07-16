@@ -4,8 +4,8 @@ old = list(range(70, 91, 1))
 too_old = list(range(91, 121, 1))
 
 user_name = input("Enter your name: ")
-user_age = int(input())
-
+user_age = int(input("Enter your age: ")
+               
 if user_age == 16:
     print(user_name, ", you need to wait one year")
 elif user_age in young:
