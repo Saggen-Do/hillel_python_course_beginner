@@ -14,7 +14,7 @@ elif user_age in old:
     print("You are lucky,", user_name, ", and welcome!")
 elif user_age in too_old:
     print(user_name, ", are you sure?")
-elif user_age > 121:
+elif user_age >= 121:
     print("You are not real,", user_name, ".")
 else:
     print("I'm sorry,", user_name, ", you are too young!")
